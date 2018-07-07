@@ -1940,7 +1940,7 @@ if ('development' !== "production") {
     module.exports = react;
   })();
 }
-},{"object-assign":16,"fbjs/lib/invariant":17,"fbjs/lib/emptyObject":18,"fbjs/lib/warning":19,"fbjs/lib/emptyFunction":20,"prop-types/checkPropTypes":21}],8:[function(require,module,exports) {
+},{"object-assign":16,"fbjs/lib/invariant":17,"fbjs/lib/emptyObject":18,"fbjs/lib/warning":19,"fbjs/lib/emptyFunction":20,"prop-types/checkPropTypes":21}],7:[function(require,module,exports) {
 'use strict';
 
 if ('development' === 'production') {
@@ -19711,7 +19711,7 @@ if ('development' !== "production") {
     module.exports = reactDom;
   })();
 }
-},{"fbjs/lib/invariant":17,"react":8,"fbjs/lib/warning":19,"fbjs/lib/ExecutionEnvironment":22,"object-assign":16,"fbjs/lib/emptyFunction":20,"prop-types/checkPropTypes":21,"fbjs/lib/getActiveElement":23,"fbjs/lib/shallowEqual":24,"fbjs/lib/containsNode":25,"fbjs/lib/emptyObject":18,"fbjs/lib/hyphenateStyleName":26,"fbjs/lib/camelizeStyleName":27}],9:[function(require,module,exports) {
+},{"fbjs/lib/invariant":17,"react":7,"fbjs/lib/warning":19,"fbjs/lib/ExecutionEnvironment":22,"object-assign":16,"fbjs/lib/emptyFunction":20,"prop-types/checkPropTypes":21,"fbjs/lib/getActiveElement":23,"fbjs/lib/shallowEqual":24,"fbjs/lib/containsNode":25,"fbjs/lib/emptyObject":18,"fbjs/lib/hyphenateStyleName":26,"fbjs/lib/camelizeStyleName":27}],8:[function(require,module,exports) {
 'use strict';
 
 function checkDCE() {
@@ -19748,7 +19748,7 @@ if ('development' === 'production') {
   module.exports = require('./cjs/react-dom.development.js');
 }
 },{"./cjs/react-dom.development.js":13}],6:[function(require,module,exports) {
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -19756,7 +19756,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -19778,15 +19778,15 @@ var App = function (_Component) {
 	}
 
 	_createClass(App, [{
-		key: 'render',
+		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
-				'div',
-				null,
+				"div",
+				{ className: "App" },
 				_react2.default.createElement(
-					'h1',
+					"h1",
 					null,
-					'Hello'
+					"Hello"
 				)
 			);
 		}
@@ -19796,7 +19796,7 @@ var App = function (_Component) {
 }(_react.Component);
 
 exports.default = App;
-},{"react":8}],4:[function(require,module,exports) {
+},{"react":7}],4:[function(require,module,exports) {
 'use strict';
 
 var _react = require('react');
@@ -19814,7 +19814,7 @@ var _app2 = _interopRequireDefault(_app);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.getElementById('root'));
-},{"react":8,"react-dom":9,"./app":6}],50:[function(require,module,exports) {
+},{"react":7,"react-dom":8,"./app":6}],50:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -19843,7 +19843,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53806' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59274' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
