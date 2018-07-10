@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 
 export default class App extends Component {
-	render() {
-		return (
-			<div className="App">
-				<h1>Hello World!</h1>
-			</div>
-		)
-	}
+    render() {
+        const string = ['This is a JavaScript String', 'This is a new line.']
+        return <div className="App">{string.map(i => <h1>{i}</h1>)}</div>
+    }
 }
