@@ -1,4 +1,7 @@
 {
+    "babel": {
+        "presets": ["react", "env"]
+    },
     "name": "parcel-trial",
     "version": "1.0.0",
     "description": "parcel trial",
