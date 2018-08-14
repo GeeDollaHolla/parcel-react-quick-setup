@@ -1,9 +1,19 @@
-# parcel-trial
+# parcel-react-quick-setup
 
-Just trying out Parcel as a package manager. 
+This code is a boilplate setup for react using parcel. 
 
-It was really easy to get a React app set up and going. 
+I tried to set up it up similar to the structure of create-react-app. 
 
-The project can be used as a boilerplate for a really simple react application. 
+I find it runs a bit quicker and is a little more simple in nature. 
 
-It is set up with babel so it should run in any browser. 
+## Usage 
+
+git clone this repo. and run `npm install`
+
+to start up parcel `npm start`
+
+this will start a server on localhost port1234
+
+to run tests run `npm test`
+
+to create a production ready build run `npm run build`
