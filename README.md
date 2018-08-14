@@ -12,7 +12,7 @@ git clone this repo. and run `npm install`
 
 to start up parcel `npm start`
 
-this will start a server on localhost port1234
+this will start a server on localhost:1234
 
 to run tests run `npm test`
 
