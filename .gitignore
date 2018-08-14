@@ -38,6 +38,7 @@ node_modules/
 jspm_packages/
 .cache/
 .vscode/
+dist/
 
 # TypeScript v1 declaration files
 typings/
